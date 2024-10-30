@@ -1,0 +1,191 @@
+# Copyright (C) 2022 Aztec Online Solutions
+# This file is distributed under the same license as the Kiskadi plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kiskadi 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kiskadi\n"
+"POT-Creation-Date: 2022-10-14T19:37:23+00:00\n"
+"PO-Revision-Date: 2022-10-14 17:03-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: kiskadi\n"
+
+#. Plugin Name of the plugin
+msgid "Kiskadi"
+msgstr "Kiskadi"
+
+#. Plugin URI of the plugin
+msgid "https://kiskadi.com/"
+msgstr "https://kiskadi.com/"
+
+#. Description of the plugin
+msgid "Kiskadi CRM WordPress integration."
+msgstr "Integração do CRM Kiskadi com WordPress."
+
+#. Author of the plugin
+msgid "Aztec Online Solutions"
+msgstr "Aztec Online Solutions"
+
+#. Author URI of the plugin
+msgid "https://aztecweb.net"
+msgstr "https://aztecweb.net"
+
+#: includes/api/client/class-client.php:61
+msgid "Invalid username and/or password"
+msgstr "Nome de usuário e/ou senha inválidos"
+
+#: includes/api/client/class-client.php:99
+msgid "Request to Kiskadi API failed."
+msgstr "Falha na solicitação à API Kiskadi."
+
+#. translators: The consumer property name
+#: includes/api/client/class-client.php:124
+msgid "Cannot mask %s."
+msgstr "Não é possível mascarar %s."
+
+#: includes/api/client/class-client.php:142
+msgid "Cannot encode request data."
+msgstr "Não é possível codificar os dados da solicitação."
+
+#: includes/api/client/class-client.php:157
+msgid "Response is not a WP_HTTP_Requests_Response object."
+msgstr "A resposta não é um objeto WP_HTTP_Requests_Response."
+
+#: includes/api/response/class-error-response.php:12
+msgid "Invalid error object."
+msgstr "Objeto de erro inválido."
+
+#: includes/api/response/class-response.php:19
+msgid "Request to Kiskadi API returned an unexpected status code."
+msgstr ""
+"A solicitação para a API Kiskadi retornou um código de status inesperado."
+
+#: includes/consumer/class-point.php:17
+msgid "Cannot load branch."
+msgstr "Não é possível carregar a filial."
+
+#: includes/consumer/data/transformer/class-exchangeable-points-array-transformer.php:25
+#: includes/transaction/transformer/class-transaction-exchange-api-transformer.php:37
+msgid "Cannot sanitize CPF."
+msgstr "Não pode higienizar os dados de CPF."
+
+#: includes/database/migration/class-migrator-loader.php:55
+msgid "Migrator class is not readable."
+msgstr "A classe Migrator não é legível."
+
+#: includes/database/migration/class-migrator.php:8
+msgid "From and to version are required to create the migrator."
+msgstr "As versões de e para são necessárias para criar o migrador."
+
+#: includes/database/migration/class-migrator.php:41
+msgid "Cannot read recipes directory."
+msgstr "Não é possível ler o diretório de receitas."
+
+#. translators: migration class name
+#: includes/database/migration/class-migrator.php:58
+msgid "Recipe %s does not implement Recipe_Interface"
+msgstr "A receita %s não implementa a Recipe_Interface"
+
+#: includes/database/migration/class-migrator.php:71
+msgid "Cannot extract version from file name."
+msgstr "Não é possível extrair a versão do nome do arquivo."
+
+#: includes/database/migration/hook/class-install-package-hook.php:31
+#: includes/database/migration/hook/class-legacy-migration-hook.php:20
+#: includes/database/migration/hook/class-migration-hook.php:20
+#: includes/integration/woocommerce/checkout/hook/assets/class-enqueue-scripts-hook.php:21
+#: includes/integration/woocommerce/checkout/hook/cashback/class-cart-calculate-fees-hook.php:25
+#: includes/integration/woocommerce/checkout/hook/cashback/class-cashback-available-hook.php:22
+#: includes/integration/woocommerce/checkout/hook/cashback/class-checkout-order-processed-hook.php:30
+#: includes/integration/woocommerce/checkout/hook/class-checkout-hook.php:23
+msgid "Cannot unserialize singleton"
+msgstr "Não é possível deserializar o singleton"
+
+#: includes/integration/woocommerce/admin/class-kiskadi-integration-admin.php:32
+msgid "Enter with your user login from kiskadi"
+msgstr "Entre com seu login de usuário da kiskadi"
+
+#: includes/integration/woocommerce/admin/class-kiskadi-integration-admin.php:39
+msgid ""
+"Enter with your password login from kiskadi. You can find this in \"User "
+"Profile\" drop-down (top right corner) > API Keys."
+msgstr ""
+"Entre com a sua senha de login da kiskadi. Você pode encontrar isso no "
+"menu suspenso \"Perfil do usuário\" (canto superior direito) > Chaves de "
+"API."
+
+#: includes/integration/woocommerce/admin/class-kiskadi-integration-admin.php:44
+msgid "Cashback"
+msgstr "Cashback"
+
+#: includes/integration/woocommerce/admin/class-kiskadi-integration-admin.php:46
+msgid "Enable cashback at checkout page"
+msgstr "Ativar cashback na página de finalização de compra"
+
+#: includes/integration/woocommerce/admin/class-kiskadi-integration-admin.php:48
+msgid "Enable the cashback option for customers at checkout"
+msgstr ""
+"Ative a opção de cashback para os clientes na página de finalização de "
+"compra"
+
+#: includes/integration/woocommerce/admin/class-kiskadi-integration-admin.php:53
+msgid "Enable logging"
+msgstr "Ativar registros de log"
+
+#: includes/integration/woocommerce/admin/class-kiskadi-integration-admin.php:55
+msgid "Log events such as API requests"
+msgstr "Eventos de log, como solicitações de API"
+
+#: includes/integration/woocommerce/checkout/helper/class-cashback-helper.php:41
+msgid "Invalid calculate fees request."
+msgstr "Solicitação de cálculo de taxas inválida."
+
+#: includes/integration/woocommerce/checkout/helper/class-cashback-helper.php:45
+msgid "Cannot extract CPF and exhangable points from post data."
+msgstr ""
+"Não é possível extrair CPF e pontos de troca dos dados de postagem."
+
+#: includes/integration/woocommerce/checkout/helper/class-cashback-helper.php:68
+msgid "Cannot extract data from post data."
+msgstr "Não é possível extrair dados de dados de postagem."
+
+#: includes/integration/woocommerce/checkout/hook/cashback/class-checkout-order-processed-hook.php:62
+msgid "Invalid cashback amount."
+msgstr "Valor de cashback inválido."
+
+#: includes/integration/woocommerce/class-order-status.php:45
+msgid "Kiskadi: An error occurred while sending points."
+msgstr "Kiskadi: Ocorreu um erro ao enviar pontos."
+
+#. translators: %s kiskadi transaction points
+#: includes/integration/woocommerce/class-order-status.php:67
+msgid "Kiskadi: This order generated %s points."
+msgstr "Kiskadi: Este pedido gerou %s pontos."
+
+#: includes/integration/woocommerce/fee/class-cashback-fee.php:22
+msgid "Kiskadi Cashback"
+msgstr "Cashback Kiskadi"
+
+#. translators: The consumer property name
+#: includes/transaction/transformer/class-transaction-api-transformer.php:61
+msgid "Cannot sanitize %s."
+msgstr "Não é possível higienizar %s."
+
+#: templates/checkout/exchangeable-points.php:4
+msgid "You can use your cashback points to pay this order."
+msgstr "Você pode usar seus pontos de cashback para pagar este pedido."
+
+#. translators: %s cashback amount
+#: templates/checkout/exchangeable-points.php:7
+msgid "Cashback total: %s"
+msgstr "Total do cashback: %s"
+
+#: templates/checkout/exchangeable-points.php:13
+msgid "Use my cashback."
+msgstr "Usar meu cashback."
